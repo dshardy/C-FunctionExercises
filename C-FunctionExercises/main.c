@@ -8,8 +8,34 @@
 
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+
+
+int main(void)
+
+{
+    
+    int FindMinimum (int a, int b);
+    
+    
+    return 0;
+    
+}
+
+/*-------------------------------------------------------*/
+
+
+int FindMinimum(int a, int b)
+{
+    printf ("input a number\n");
+    scanf ("%d", &a);
+    printf ("you chose", a);
+    
+    printf ("input another number\n");
+    scanf ("%d", &b);
+    printf ("you chose", b);
+    
+    
+    
+    
     return 0;
 }
