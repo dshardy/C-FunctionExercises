@@ -12,38 +12,32 @@
 int main()
 {
     
-    int FindMinimum ();
+    FindMinimum ();
     
-    return 0;
 }
 
 /*-------------------------------------------------------*/
 
 
-/*output*/    int FindMinimum(int x, int y)    /*input*/
+/*output*/    void FindMinimum()    /*input*/
 
 {
+    GetNumberFromKeyboard();
     
-    printf ("input a number\n");
-    scanf ("%d", x);
-    printf ("you chose\n", x);
+    int firstnumber;
     
-    printf ("input another number\n");
-    scanf ("%d", y);
-    printf ("you chose\n", y);
-    
-    
-    return 0;
 }
 
 /*-------------------------------------------------------*/
 
-int GetNumberFromKeyboard(int number)
+int GetNumberFromKeyboard()
 
 {
+    int number;
+    
     printf ("input a number\n");
     scanf ("%d", &number);
     printf ("you chose\n", number);
     
-    return 0;
+    return number;
 }
