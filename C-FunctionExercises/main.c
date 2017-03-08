@@ -9,32 +9,28 @@
 #include <stdio.h>
 
 
-
-int main(void)
-
+int main()
 {
     
-    int FindMinimum (int a, int b);
-    
+    int FindMinimum ();
     
     return 0;
-    
 }
 
 /*-------------------------------------------------------*/
 
 
-int FindMinimum(int a, int b)
+/*output*/    int FindMinimum(int x, int y)    /*input*/
+
 {
+    
     printf ("input a number\n");
-    scanf ("%d", &a);
-    printf ("you chose", a);
+    scanf ("%d", x);
+    printf ("you chose\n", x);
     
     printf ("input another number\n");
-    scanf ("%d", &b);
-    printf ("you chose", b);
-    
-    
+    scanf ("%d", y);
+    printf ("you chose\n", y);
     
     
     return 0;
