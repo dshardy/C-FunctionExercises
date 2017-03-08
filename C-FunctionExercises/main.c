@@ -35,3 +35,15 @@ int main()
     
     return 0;
 }
+
+/*-------------------------------------------------------*/
+
+int GetNumberFromKeyboard(int number)
+
+{
+    printf ("input a number\n");
+    scanf ("%d", &number);
+    printf ("you chose\n", number);
+    
+    return 0;
+}
