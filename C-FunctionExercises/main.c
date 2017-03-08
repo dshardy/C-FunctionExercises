@@ -19,7 +19,7 @@ int main()
 /*-------------------------------------------------------*/
 
 
-/*output*/    void FindMinimum()    /*input*/
+/*output*/   void FindMinimum()   /*input*/
 
 {
     GetNumberFromKeyboard();
