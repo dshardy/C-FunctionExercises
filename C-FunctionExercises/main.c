@@ -14,8 +14,9 @@ int main(void)
 
 {
     
+    int GetNumberFromKeyboard();
     int FindMinimum (int a, int b);
-    
+  
     
     return 0;
     
@@ -26,16 +27,22 @@ int main(void)
 
 int FindMinimum(int a, int b)
 {
+    int GetNumberFromKeyboard();
+    
+    
+    
+    
+    return 0;
+}
+
+/*-------------------------------------------------------*/
+
+int GetNumberFromKeyboard(int number)
+
+{
     printf ("input a number\n");
-    scanf ("%d", &a);
-    printf ("you chose", a);
-    
-    printf ("input another number\n");
-    scanf ("%d", &b);
-    printf ("you chose", b);
-    
-    
-    
+    scanf ("%d", &number);
+    printf ("you chose\n", number);
     
     return 0;
 }
